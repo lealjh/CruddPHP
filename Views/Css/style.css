@@ -1,0 +1,117 @@
+
+header{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url("../img/fondo.jpg");
+    background-size: cover;
+}
+
+header h2{
+    position: relative;
+    top: 50px;
+    color: #fff;
+}
+
+#formulario {
+    width: 100%;
+}
+
+header .form-peli{
+    padding: 10px;
+    background: #7e4d4d3d;
+    backdrop-filter: blur(5px);
+    position: relative;
+    top: 150px;
+    left: 350px;
+    
+}
+
+header .form-peli .form-label{
+    margin: 20px 10px;
+    color: #fff;
+    padding: 5px;
+    background: #5e9da8e1;
+    border-radius: 4px;
+}
+
+
+
+header .form-peli .guardar-peli{
+    background: #5e9da8e1;
+    margin: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+header .form-peli .buton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .form-peli .buton a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 6px solid #000;
+}
+
+
+header#verRegistros{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url("../img/fondo-verPeliculas.jpg");
+    background-size: cover;
+}
+
+.mostrar-peli{
+    position: relative;
+    margin-top: 50px;
+}
+.registrar-nuevo {
+    position: relative;    
+    margin-top: 50px;
+}
+.registrar-nuevo a{
+    
+    text-decoration: none;
+    color: #000;
+    padding: 4px;
+    background:#5e9da8e1 ;
+    transition: .4s;
+}
+
+.registrar-nuevo a:hover{
+    background: #b94141af;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+
+
+header#modificarPelicula{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url("../img/fondo-modificarPeliculas.jpg");
+    background-size: cover;
+}
+
+#modificarPelicula h1{
+    position: relative;
+    top: 140px;
+    background-color: #ffffff83;
+    backdrop-filter: blur(5px);
+    width: 700px;
+    left: 450px;
+    border-radius: 10px;
+
+    
+}
+
+#modificarPelicula .main-content{
+    position: relative;
+    top: 200px;
+}
